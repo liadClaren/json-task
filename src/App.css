@@ -1,0 +1,66 @@
+.App {
+  display: flex;
+  justify-content: center;
+}
+
+.first-div {
+  padding: 10px;
+  border: 1px solid rgb(36, 166, 36);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: lightblue;
+  margin: 5px 0 0 20px;
+  width: fit-content;
+}
+
+.inner-first-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.second-div {
+  padding: 10px;
+  margin: 5px 0 0 50px;
+  border: 1px solid rgb(36, 166, 36);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: skyblue;
+}
+
+.inner-second-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.third-div {
+  margin: 5px 0 0 50px;
+  padding: 10px;
+  border: 1px solid rgb(36, 166, 36);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: lightgray;
+}
+
+.inner-third-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.forth-div {
+  margin: 5px 0 0 50px;
+  padding: 10px;
+  border: 1px solid rgb(36, 166, 36);
+  border-radius: 10px;
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+  background-color: coral;
+}
+
+.inner-forth-div {
+  display: flex;
+  flex-direction: column;
+}
